@@ -1,0 +1,159 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.menu-item{
+    margin-right: 20px;
+}
+.menu-item:nth-child(2){
+    margin-right: 15px;
+    background-color: rgb(25, 113, 25);
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    font-family: inherit;
+}
+.titulo{
+    
+    font-weight: 700;
+    color: black;
+    margin-top: 1.01em;
+    font-size: 2.5rem;
+    margin-bottom: 24px;
+    font-style: normal;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+.contenido{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.creditoimg{
+    margin-top: 10px;
+    color: rgb(133, 132, 131);
+}
+a{
+    color: rgb(133, 132, 131);
+}
+.perfil{
+    height: 70px;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
+
+
+}
+.nombre {
+    display: flex;
+    align-items: center;
+} 
+.follow{
+    text-decoration: none;
+    color: green;
+}
+.contenedor{
+    width: 50%;
+    display: flex;
+    margin-bottom: 20px;
+}
+.computer{
+    margin-top: 20px;
+}
+.group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    max-width: 190px;
+   }
+   
+   .input {
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    outline: none;
+    background-color: #f3f3f4;
+    color: #0d0c22;
+    transition: .3s ease;
+   }
+   
+   .input::placeholder {
+    color: #9e9ea7;
+   }
+   
+   .input:focus, input:hover {
+    outline: none;
+    border-color: rgba(234,76,137,0.4);
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+   }
+   
+   .icon {
+    position: absolute;
+    left: 1rem;
+    fill: #9e9ea7;
+    width: 1rem;
+    height: 1rem;
+   }
+   
+.buscador{
+    display: flex;
+}
+.icons{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    border-top: 1px solid rgb(202, 195, 195); 
+    border-bottom: 1px solid rgb(202, 195, 195);
+}
+article{
+    margin-top: 20px;
+    width: 50%;
+    font-size: 20px;
+    font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+li{
+    margin-top: 15px;
+    font-family: source-serif-pro, Georgia, Cambria, "Times New Roman", Times, serif;
+
+}
+footer{
+    background-color: rgb(202, 205, 205);
+    display: flex;
+    justify-content: space-around;
+}
+.foot{
+margin-top: 50px;
+}
+.logos{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.letter{
+    margin-left: 30px;
+}
+.foll{
+    margin-right: 15px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    font-family: inherit;
+}
+   
+   
+   
+   
+
+
